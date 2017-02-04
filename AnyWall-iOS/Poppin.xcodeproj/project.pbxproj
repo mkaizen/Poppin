@@ -15,11 +15,7 @@
 		341166DA1D0637590088C985 /* ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = 341166D91D0637590088C985 /* ruler.png */; };
 		341166DC1D06375D0088C985 /* directions.png in Resources */ = {isa = PBXBuildFile; fileRef = 341166DB1D06375D0088C985 /* directions.png */; };
 		34160DDA1D0756460020BD8E /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 34160DD91D0756460020BD8E /* picture.png */; };
-		341BF4841DA823F20090E11C /* PAPPhotoDetailsFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF4831DA823F20090E11C /* PAPPhotoDetailsFooterView.m */; };
-		341BF4861DAF24010090E11C /* PAPBaseTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF4851DAF24010090E11C /* PAPBaseTextCell.m */; };
-		341BF48A1DAF27D10090E11C /* PAPProfileImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF4891DAF27D10090E11C /* PAPProfileImageView.m */; };
 		341BF48D1DAF28E30090E11C /* PAPUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF48C1DAF28E30090E11C /* PAPUtility.m */; };
-		341BF4911DAF393C0090E11C /* PAPActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF4901DAF393C0090E11C /* PAPActivityCell.m */; };
 		341BF4941DAF44F80090E11C /* Speech Bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 341BF4931DAF44F80090E11C /* Speech Bubble@2x.png */; };
 		34205CDC1CEF8D5800D37715 /* PAWPostFullPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34205CDB1CEF8D5800D37715 /* PAWPostFullPage.m */; };
 		3442CF9E1DC11F4F005BF72D /* AddUser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442CF9D1DC11F4F005BF72D /* AddUser@2x.png */; };
@@ -35,6 +31,10 @@
 		3471E8931BF593DD00885FDB /* PAWWallPostCreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3471E8921BF593DD00885FDB /* PAWWallPostCreateViewController.xib */; };
 		348920CB1E4599C40039F12C /* compact_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348920CA1E4599C40039F12C /* compact_camera@2x.png */; };
 		348920CD1E4599E20039F12C /* stopwatch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348920CC1E4599E20039F12C /* stopwatch@3x.png */; };
+		348920D61E45BDFD0039F12C /* PAPActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 348920CE1E45BDFD0039F12C /* PAPActivityCell.m */; };
+		348920D71E45BDFD0039F12C /* PAPBaseTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 348920CF1E45BDFD0039F12C /* PAPBaseTextCell.m */; };
+		348920D81E45BDFD0039F12C /* PAPPhotoDetailsFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348920D31E45BDFD0039F12C /* PAPPhotoDetailsFooterView.m */; };
+		348920D91E45BDFD0039F12C /* PAPProfileImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348920D51E45BDFD0039F12C /* PAPProfileImageView.m */; };
 		34C0E5DB1CE515FA002718B1 /* blueContact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0E5DA1CE515FA002718B1 /* blueContact@2x.png */; };
 		34C0E5DD1CE52D74002718B1 /* blueStopwatch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0E5DC1CE52D74002718B1 /* blueStopwatch@2x.png */; };
 		34C0E5E51CEA5DF6002718B1 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0E5E41CEA5DF6002718B1 /* camera.png */; };
@@ -126,16 +126,9 @@
 		341166D91D0637590088C985 /* ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruler.png; sourceTree = "<group>"; };
 		341166DB1D06375D0088C985 /* directions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directions.png; sourceTree = "<group>"; };
 		34160DD91D0756460020BD8E /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
-		341BF4821DA823F20090E11C /* PAPPhotoDetailsFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPPhotoDetailsFooterView.h; path = "../../../Anypic-master/Anypic-iOS/Anypic/PAPPhotoDetailsFooterView.h"; sourceTree = "<group>"; };
-		341BF4831DA823F20090E11C /* PAPPhotoDetailsFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPPhotoDetailsFooterView.m; path = "../../../Anypic-master/Anypic-iOS/Anypic/PAPPhotoDetailsFooterView.m"; sourceTree = "<group>"; };
-		341BF4851DAF24010090E11C /* PAPBaseTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPBaseTextCell.m; path = "../../../Anypic-master/Anypic-iOS/Anypic/PAPBaseTextCell.m"; sourceTree = "<group>"; };
-		341BF4881DAF24410090E11C /* PAPBaseTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PAPBaseTextCell.h; path = "../../../Anypic-master/Anypic-iOS/Anypic/PAPBaseTextCell.h"; sourceTree = "<group>"; };
-		341BF4891DAF27D10090E11C /* PAPProfileImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPProfileImageView.m; path = "../../../Anypic-master/Anypic-iOS/Anypic/PAPProfileImageView.m"; sourceTree = "<group>"; };
-		341BF48B1DAF27D70090E11C /* PAPProfileImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PAPProfileImageView.h; path = "../../../Anypic-master/Anypic-iOS/Anypic/PAPProfileImageView.h"; sourceTree = "<group>"; };
-		341BF48C1DAF28E30090E11C /* PAPUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPUtility.m; path = "../../../../Documents/OneDrive/Old/AnyWall-master-23/AnyWall-iOS/AnyWall/PAPUtility.m"; sourceTree = "<group>"; };
-		341BF48E1DAF28EA0090E11C /* PAPUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPUtility.h; path = "../../../../Documents/OneDrive/Old/AnyWall-master-23/AnyWall-iOS/AnyWall/PAPUtility.h"; sourceTree = "<group>"; };
-		341BF4901DAF393C0090E11C /* PAPActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPActivityCell.m; path = "../../../Anypic-master/Anypic-iOS/Anypic/PAPActivityCell.m"; sourceTree = "<group>"; };
-		341BF4921DAF39450090E11C /* PAPActivityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PAPActivityCell.h; path = "../../../Anypic-master/Anypic-iOS/Anypic/PAPActivityCell.h"; sourceTree = "<group>"; };
+		341BF48C1DAF28E30090E11C /* PAPUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPUtility.m; path = "../../../Desktop/AnyWall-master-23 (original 3)/AnyWall-iOS/AnyWall/PAPUtility.m"; sourceTree = "<group>"; };
+		341BF48E1DAF28EA0090E11C /* PAPUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPUtility.h; path = "../../../Desktop/AnyWall-master-23 (original 3)/AnyWall-iOS/AnyWall/PAPUtility.h"; sourceTree = "<group>"; };
+		341BF4921DAF39450090E11C /* PAPActivityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAPActivityCell.h; sourceTree = "<group>"; };
 		341BF4931DAF44F80090E11C /* Speech Bubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Speech Bubble@2x.png"; sourceTree = "<group>"; };
 		34205CDB1CEF8D5800D37715 /* PAWPostFullPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAWPostFullPage.m; sourceTree = "<group>"; tabWidth = 4; };
 		34205CDD1CEF8D7000D37715 /* PAWPostFullPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWPostFullPage.h; sourceTree = "<group>"; };
@@ -154,6 +147,14 @@
 		3471E8921BF593DD00885FDB /* PAWWallPostCreateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PAWWallPostCreateViewController.xib; sourceTree = "<group>"; };
 		348920CA1E4599C40039F12C /* compact_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compact_camera@2x.png"; sourceTree = "<group>"; };
 		348920CC1E4599E20039F12C /* stopwatch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stopwatch@3x.png"; sourceTree = "<group>"; };
+		348920CE1E45BDFD0039F12C /* PAPActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPActivityCell.m; sourceTree = "<group>"; };
+		348920CF1E45BDFD0039F12C /* PAPBaseTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPBaseTextCell.m; sourceTree = "<group>"; };
+		348920D01E45BDFD0039F12C /* PAPActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPActivityCell.h; sourceTree = "<group>"; };
+		348920D11E45BDFD0039F12C /* PAPBaseTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPBaseTextCell.h; sourceTree = "<group>"; };
+		348920D21E45BDFD0039F12C /* PAPPhotoDetailsFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPPhotoDetailsFooterView.h; sourceTree = "<group>"; };
+		348920D31E45BDFD0039F12C /* PAPPhotoDetailsFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPPhotoDetailsFooterView.m; sourceTree = "<group>"; };
+		348920D41E45BDFD0039F12C /* PAPProfileImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPProfileImageView.h; sourceTree = "<group>"; };
+		348920D51E45BDFD0039F12C /* PAPProfileImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPProfileImageView.m; sourceTree = "<group>"; };
 		34C0E5DA1CE515FA002718B1 /* blueContact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueContact@2x.png"; sourceTree = "<group>"; };
 		34C0E5DC1CE52D74002718B1 /* blueStopwatch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueStopwatch@2x.png"; sourceTree = "<group>"; };
 		34C0E5E41CEA5DF6002718B1 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
@@ -162,7 +163,7 @@
 		34C674191D7F2B9C00770B92 /* map-pinFriend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-pinFriend.png"; sourceTree = "<group>"; };
 		34C6741D1D7F335100770B92 /* mapPin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapPin@2x.png"; sourceTree = "<group>"; };
 		34C674211D7F64B700770B92 /* mapPinFriends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapPinFriends@2x.png"; sourceTree = "<group>"; };
-		34C998951DEB4DAF00C50720 /* PAWLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PAWLoginViewController.xib; path = "../../../AnyWall-master-23 (original 3)/AnyWall-iOS/AnyWall/PAWLoginViewController.xib"; sourceTree = "<group>"; };
+		34C998951DEB4DAF00C50720 /* PAWLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PAWLoginViewController.xib; path = "../../../Desktop/AnyWall-master-23 (original 3)/AnyWall-iOS/AnyWall/PAWLoginViewController.xib"; sourceTree = "<group>"; };
 		34C998971DECACDD00C50720 /* LogIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogIn.png; sourceTree = "<group>"; };
 		34C998991DED39F200C50720 /* SignUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignUp.png; sourceTree = "<group>"; };
 		34C9989B1DED573F00C50720 /* FBSignIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBSignIn.png; sourceTree = "<group>"; };
@@ -501,13 +502,14 @@
 				34205CDB1CEF8D5800D37715 /* PAWPostFullPage.m */,
 				34205CDD1CEF8D7000D37715 /* PAWPostFullPage.h */,
 				341BF4921DAF39450090E11C /* PAPActivityCell.h */,
-				341BF4901DAF393C0090E11C /* PAPActivityCell.m */,
-				341BF4851DAF24010090E11C /* PAPBaseTextCell.m */,
-				341BF4881DAF24410090E11C /* PAPBaseTextCell.h */,
-				341BF4891DAF27D10090E11C /* PAPProfileImageView.m */,
-				341BF48B1DAF27D70090E11C /* PAPProfileImageView.h */,
-				341BF4821DA823F20090E11C /* PAPPhotoDetailsFooterView.h */,
-				341BF4831DA823F20090E11C /* PAPPhotoDetailsFooterView.m */,
+				348920CE1E45BDFD0039F12C /* PAPActivityCell.m */,
+				348920CF1E45BDFD0039F12C /* PAPBaseTextCell.m */,
+				348920D01E45BDFD0039F12C /* PAPActivityCell.h */,
+				348920D11E45BDFD0039F12C /* PAPBaseTextCell.h */,
+				348920D21E45BDFD0039F12C /* PAPPhotoDetailsFooterView.h */,
+				348920D31E45BDFD0039F12C /* PAPPhotoDetailsFooterView.m */,
+				348920D41E45BDFD0039F12C /* PAPProfileImageView.h */,
+				348920D51E45BDFD0039F12C /* PAPProfileImageView.m */,
 				3455FBA21D009B0A0052735E /* PAWComingFriendsViewController.m */,
 				34E7CC3F1D5F9A6000BBFF9B /* PAWInviteFriendsViewController.m */,
 				3455FBA41D009B4F0052735E /* PAWComingFriendsViewController.h */,
@@ -826,12 +828,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348920D61E45BDFD0039F12C /* PAPActivityCell.m in Sources */,
 				E56E840314D72E1100E856AB /* main.m in Sources */,
+				348920D91E45BDFD0039F12C /* PAPProfileImageView.m in Sources */,
 				E56E840714D72E1100E856AB /* PAWAppDelegate.m in Sources */,
 				E5CAAFF414D733DC00D97A18 /* PAWWallViewController.m in Sources */,
-				341BF48A1DAF27D10090E11C /* PAPProfileImageView.m in Sources */,
 				34E9B2E61CE26B3900EF7337 /* PAWProfileViewController.m in Sources */,
-				341BF4841DA823F20090E11C /* PAPPhotoDetailsFooterView.m in Sources */,
 				341BF48D1DAF28E30090E11C /* PAPUtility.m in Sources */,
 				34C998A71DF89CA900C50720 /* SimpleTableViewController.m in Sources */,
 				34205CDC1CEF8D5800D37715 /* PAWPostFullPage.m in Sources */,
@@ -853,15 +855,15 @@
 				34CFFAE21CD7DDB100160F8E /* AFImageDownloader.m in Sources */,
 				34CFFACA1CD7DDAA00160F8E /* AFURLResponseSerialization.m in Sources */,
 				34C998AC1DF926EF00C50720 /* SimpleTableCell.m in Sources */,
+				348920D71E45BDFD0039F12C /* PAPBaseTextCell.m in Sources */,
+				348920D81E45BDFD0039F12C /* PAPPhotoDetailsFooterView.m in Sources */,
 				3455FBA31D009B0A0052735E /* PAWComingFriendsViewController.m in Sources */,
 				34CFFAE51CD7DDB100160F8E /* UIButton+AFNetworking.m in Sources */,
-				341BF4861DAF24010090E11C /* PAPBaseTextCell.m in Sources */,
 				34D137441C3361370025C3D9 /* PAWFriendViewController.m in Sources */,
 				E5AF78F314E0B725005B6234 /* PAWActivityView.m in Sources */,
 				34CFFAC91CD7DDAA00160F8E /* AFURLRequestSerialization.m in Sources */,
 				34CFFAE11CD7DDB100160F8E /* AFAutoPurgingImageCache.m in Sources */,
 				34CFFAE41CD7DDB100160F8E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				341BF4911DAF393C0090E11C /* PAPActivityCell.m in Sources */,
 				34CFFAC81CD7DDAA00160F8E /* AFSecurityPolicy.m in Sources */,
 				34CFFAE91CD7DDB100160F8E /* UIWebView+AFNetworking.m in Sources */,
 				E554D5C314E32EFB008D027A /* PAWPost.m in Sources */,
