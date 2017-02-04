@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="mapstogpx.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.mapstogpx.com">
+      <text>Sverrir Sigmundarson</text>
+    </link>
+    <!--desc>Map data ©2016 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2016</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/47.620521,-122.3606542/47.6018504,-122.3355492/47.6245963,-122.3606101/47.6022713,-122.3324848/47.6244229,-122.3476271/@47.610825,-122.3395968,14.52z/data=!4m57!4m56!1m0!1m35!3m4!1m2!1d-122.3342818!2d47.6025065!3s0x54906ab009a54f31:0x5e2d446748f73581!3m4!1m2!1d-122.3536247!2d47.6175627!3s0x5490154feec4ea25:0xda36a07f0805532!3m4!1m2!1d-122.3567472!2d47.6196077!3s0x549015452ec0bbc9:0xdb1303b0b0264e67!3m4!1m2!1d-122.356752!2d47.6191834!3s0x54901545318e29c5:0x6c874fd4a68c4a39!3m4!1m2!1d-122.3580636!2d47.6197858!3s0x5490155ad61010c5:0x8b4c03e6cb826342!3m4!1m2!1d-122.3593605!2d47.622118!3s0x549015435fbd0369:0xa866e9d92183995c!3m4!1m2!1d-122.3600285!2d47.6221158!3s0x549015435419f975:0x6b49cab163cc5146!1m0!1m15!3m4!1m2!1d-122.3306279!2d47.603099!3s0x54906aba7a31b7d9:0x22d483af8fd06c04!3m4!1m2!1d-122.3392305!2d47.6118791!3s0x5490154cb29922f9:0x2e148e10a4e6fdc!3m4!1m2!1d-122.3452264!2d47.6161392!3s0x5490154ebcbebfaf:0x336cbb8f2b8f2c13!1m0!3e2?hl=en</url-->
+    <time>2016-07-21T14:35:37Z</time>
+  </metadata>
+  <wpt lat="47.6123321" lon="-122.3465288">
+    <name>291-299 Western Avenue West</name>
+    <desc>291-299 Western Avenue West, Seattle, WA 98119, USA</desc>
+    <time>2016-07-21T14:35:37Z</time>
+  </wpt>
+ <wpt lat="47.6123321" lon="-122.3465288">
+    <name>WP001</name>
+    <time>2016-07-22T14:35:43Z</time>
+  </wpt>
+
+ </gpx>

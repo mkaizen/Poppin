@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'Poppin'
+
+platform :ios, '10.0'
+
+target "Poppin" do
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
+pod 'FontAwesomeKit', '~> 2.2.0'
+pod 'CZPicker'
+pod 'AKPickerView'
+pod 'FormatterKit'
+pod 'Parse'
+pod 'ParseFacebookUtilsV4' 
+pod 'ParseUI'
+pod 'FormatterKit'
+pod 'Neumob'
+
+
+end
